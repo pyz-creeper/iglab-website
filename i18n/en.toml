@@ -18,9 +18,6 @@ other = "From our blog"
 [read_more]
 other = "Read more"
 
-[subscribe_rss]
-other = "Subscribe <a href=\"{{ .Permalink }}\">via RSS</a>"
-
 [footer_support_us]
 other = "Support a more secure and privacy-respecting Web."
 
@@ -33,9 +30,30 @@ other = "Last updated:"
 [see_all_doc]
 other = "See all Documentation"
 
-[blog_feed]
-other = "Let's Encrypt Blog Feed"
+[footer_affiliations_title]
+other = "Current and Past Affiliations"
 
 
 [languages]
 other = "Languages"
+
+[research]
+other = "Research"
+
+[join_us]
+other = "Join Us"
+
+[team]
+other = "Team"
+
+[publications]
+other = "Publications"
+
+[news]
+other = "News"
+
+[address]
+other = "FIT Building, Tsinghua University, Haidian District, Beijing, China"
+
+[copyright]
+other = "&copy 2024 InspiringGroup. All rights reserved."

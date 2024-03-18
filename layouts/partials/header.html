@@ -2,7 +2,7 @@
   <header class="header-transparent">
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-3" id="navbar-main">
       <div class="container">
-        <a class="navbar-brand mr-lg-5" href="/">InspiringGroup</a>
+        <a class="navbar-brand mr-lg-5" href={{ "/" | relLangURL }}>InspiringGroup</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,27 +23,32 @@
               </div>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="/research/">Research</a>
+              <a class="nav-link" href={{ "/research/" | relLangURL }}>{{ i18n "research" }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/publications/">Publications</a>
+              <a class="nav-link" href={{ "/publications/" | relLangURL }}>{{ i18n "publications" }}</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/news/">News</a>
+              <a class="nav-link" href={{ "/news/" | relLangURL }}>{{ i18n "news" }}</a>
             </li>
 
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/team/">Team</a>
+              <a class="nav-link" href={{ "/team/" | relLangURL }}>{{ i18n "team" }}</a>
             </li>
             <li class="nav-item mr-0">
-              <a href="/join/" class="nav-link d-lg-none">Join</a>
-              <a href="/join/" class="btn btn-sm btn-primary btn-circle btn-icon d-none d-lg-inline-flex">
-                <span class="btn-inner--text">Join now</span>
+              <a href={{ "/join/" | relLangURL }} class="btn btn-sm btn-primary btn-circle btn-icon d-none d-lg-inline-flex">
+                <span class="btn-inner--text">{{ i18n "join_us" }}</span>
               </a>
             </li>
+            {{ range .Translations }}
+            <li class="nav-item mr-0">
+            <a class="nav-link" href="{{ .Permalink }}">{{ .Site.Language.LanguageName }}</a>
+            </li>
+            {{ end }}
           </ul>
+          
         </div>
       </div>
     </nav>
