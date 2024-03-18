@@ -3,9 +3,9 @@ seq: 2
 image: /images/team/lichenyang.jpg
 ---
 
-### Chenyang Li
-<p><i>Master Student</i></p>
+### 李晨阳
+<p><i>硕士生</i></p>
 
-- Working on Hardware Acceleration of Privacy Computing
-- B.E. in Electronic Engineering, Tsinghua University
+- 研究方向：隐私计算的硬件加速
+- 本科毕业于清华大学
 

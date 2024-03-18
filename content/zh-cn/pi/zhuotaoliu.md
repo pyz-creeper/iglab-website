@@ -3,16 +3,16 @@ seq: 1
 image: "/images/team/zhuotaoliu.jpg"
 ---
 
-### Dr. Zhuotao Liu
+### 刘卓涛博士
 <div class="largerfont">
-  <p><i>Associate Professor, Tsinghua University</i><br>
-  <i>Distinguished Researcher, Tsinghua University</i></p>
+  <p><i>清华大学网研院，副教授</i><br>
+  <i>清华大学海外优青</i></p>
 </div>
-email: zhuotaoliu [at] tsinghua [dot] edu [dot] cn, zhuotaoliu [at] gmail [dot] com
+电子邮箱: zhuotaoliu [at] tsinghua [dot] edu [dot] cn, zhuotaoliu [at] gmail [dot] com
 
-- Former Technical Lead @ Google’s NetInfra (Network Infrastructure) and GGN (Google Global Networking) team
-- Two-time "Feats of Engineering" award at Google for Datacenter Networking
-- Ph.D. from University of Illinois at Urbana-Champaign (UIUC), 2017
-- Chiang Chen Overseas Graduate Fellowship from 2013 to 2015
-- B.S. from Shanghai Jiao Tong University (SJTU), 2012
-- National Scholarship for three consecutive years (2009, 2010, 2011)
+- 曾任谷歌网络基础设施组(NetInfra)和全球网络组(GGN)技术主管
+- 两次因数据中心网络的工作荣获谷歌"Feats of Engineering"奖
+- 2017年博士毕业于伊利诺伊大学厄巴纳-香槟分校
+- 2013年至2015年蒋震奖学金
+- 2012年本科毕业于上海交通大学
+- 连续三年(2009, 2010, 2011)获得国家奖学金

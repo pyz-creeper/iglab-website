@@ -3,9 +3,9 @@ seq: 0
 image: /images/team/liqi.jpg
 ---
 
-### Qi Li
-<p><i>Master Student</i></p>
+### 李琪
+<p><i>硕士生</i></p>
 
-- Working on Privacy Computing; Blockchain
-- B.E. in Information Security, Beijing University of Posts and Telecommunications
+- 研究方向：隐私计算；区块链
+- 本科毕业于清华大学
 

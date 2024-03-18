@@ -3,9 +3,9 @@ seq: 4
 image: /images/team/xuhaotian.jpg
 ---
 
-### Haotian Xu
-<p><i>Ph.D. Student</i></p>
+### 许澔天
+<p><i>博士生</i></p>
 
-- Working on ML in Network Devices
-- B.E. in Computer Science and Technology, Tsinghua University
+- 研究方向：机器学习在网络设备中的应用
+- 本科毕业于清华大学
 

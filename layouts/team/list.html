@@ -10,10 +10,11 @@
       </div>
     </div>
     {{ end }}
-
+    
+    <div class="container">
     <h3> Ph.D. Students </h3>
     {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "phd_members")).ByParam "seq")}}
-    <div>
+    
     {{ range $posts }}
       <div class="student-avatar-container">
         <img src="{{ .Params.image }}"/>
@@ -24,9 +25,9 @@
     {{ end }}
     </div>
 
+    <div class="container">
     <h3> Master Students </h3>
     {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "master_members")).ByParam "seq")}}
-    <div>
     {{ range $posts }}
       <div class="student-avatar-container">
         <img src="{{ .Params.image }}"/>
@@ -37,11 +38,13 @@
     {{ end }}
     </div>
     <br>
+    <div class="container">
     {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "team")).ByParam "seq")}}
     {{ range $posts }}
       <div class="team-container">
         <article>{{ .Content | markdownify }}</article>
       </div>
     {{ end }}
+    </div>
 </div>
 {{ end }}

@@ -3,9 +3,9 @@ seq: 3
 image: /images/team/yanjinzhu.jpeg
 ---
 
-### Jinzhu Yan
-<p><i>Ph.D. Student</i></p>
+### 闫金柱
+<p><i>博士生</i></p>
 
-- Working on Applied ML; Privacy Computing
-- B.E. in Computer Science and Technology, Beihang University
+- 研究方向：应用机器学习；隐私计算
+- 本科毕业于北京航空航天大学
 
