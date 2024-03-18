@@ -2,7 +2,7 @@
 <div>
     {{ $posts := ((where .Site.RegularPages "Type" "in" (slice "publications")).ByParam "seq").Reverse}}
     {{ range $posts }}
-      <h2>{{ .Title }}</h2>
+      <h4>{{ .Title }}</h4>
       {{ with .Params.authors }}
         {{ . | safeHTML }}
         <br>
@@ -13,24 +13,36 @@
         {{ .Summary }}
       {{ end }}
       <br>
+
+      {{ $newLine := 0 }}
       {{ if .Params.has_more }}
         <a href="{{ .Permalink }}">{{ i18n "read_more" }}</a><br>
       {{ end }}
       {{ with .Params.pdf }}
         <a href="{{ . }}">[pdf]</a>
+        {{ $newLine = 1 }}
       {{ end }}
       {{ with .Params.doi }}
         <a href="{{ . }}">[doi]</a>
+        {{ $newLine = 1 }}
       {{ end }}
       {{ with .Params.patent }}
         <a href="{{ . }}">[patent]</a>
+        {{ $newLine = 1 }}
       {{ end }}
       {{ with .Params.slides }}
         <a href="{{ . }}">[slides]</a>
+        {{ $newLine = 1 }}
       {{ end }}
       {{ with .Params.code}}
         <a href="{{ . }}">[code]</a>
+        {{ $newLine = 1 }}
       {{ end }}
+
+      {{ if eq $newLine 1 }}
+      <br>
+      {{ end }}
+
       <br>
     {{ end }}
 </div>

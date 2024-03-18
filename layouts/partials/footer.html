@@ -3,56 +3,45 @@
         <div class="container">
           <h2 class="eyebrow-text">{{ i18n "footer_affiliations_title" }}</h2>
         </div>
-    
         <div class="container">
-          <div class="row blurable-item align-items-center grid-cols-7">
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/logopic/tsinghua.png" class="img-fluid" />
-              </div>
+          <div class="row align-items-center">
+            <div class="col-2 px-4 py-4">
+              <img src="/images/logopic/tsinghua.png" class="img-fluid" />
             </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/logopic/uiuc2.jpeg" class="img-fluid" />
-              </div>
+            <div class="col-2 px-4 py-4">
+              <img src="/images/logopic/uiuc2.jpeg" class="img-fluid" />
             </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/logopic/google2.png" class="img-fluid" />
-              </div>
+            <div class="col-2 px-4 py-4">
+              <img src="/images/logopic/google2.png" class="img-fluid" />
             </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/logopic/vmware.png" class="img-fluid" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/logopic/neclabs.png" class="img-fluid img-grayscale" />
-              </div>
-            </div>
-            <div class="grid-col d-flex align-items-center">
-              <div class="px-4 py-4">
-                <img src="/images/logopic/cloud.png" class="img-fluid" />
-              </div>
-            </div>
-            <div class="grid-col">
-              <div class="px-4 py-4">
-                <img src="/images/logopic/ECE.png" class="img-fluid" />
-              </div>
+            <div class="col-2 px-4 py-4">
+              <img src="/images/logopic/vmware.png" class="img-fluid" />
             </div>
           </div>
-        </div>
-      </section>
-    <footer class="footer py-5" data-separator="rounded-right" data-separator-orientation="top">
-        <div class="container mt-4">
+        </div>  
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-3 px-4 py-4">
+              <img src="/images/logopic/neclabs.png" class="img-fluid" />
+            </div>
+            <div class="col-3 px-4 py-4">
+              <img src="/images/logopic/cloud.png" class="img-fluid" />
+            </div>
+            <div class="col-3 px-4 py-4">
+              <img src="/images/logopic/ECE.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>  
+    </section>
+    <footer class="footer py-1" data-separator="rounded-right" data-separator-orientation="top">
+        <div class="container">
             <div class="row row-grid">
                 <div id="footer-copyright-column" class="col-12 col-md-6 col-lg-6 align-items-start">
                     <div class="">
-                        <span class="d-block">
+                        <!-- <span class="d-block"> -->
                         <!-- <div class="mb-2"><a href="/privacy-policy/">Privacy Policy</a> | <a href="/trademarks/">Trademark Policy</a><br></div> -->
-                        <div class="mb-2">{{ .Site.Params.copyrighthtml | safeHTML}}</div>
-                        <div class="mb-2">{{ .Site.Params.address}}</div>
+                        <div class="mb-2">{{ i18n "copyright" | safeHTML}}</div>
+                        <div class="mb-2">{{ i18n "address" }}</div>
                         <!-- <p> {{ i18n "footer_mailing" }}
                             <span itemscope itemtype="http://schema.org/PostalAddress">
                             <span itemprop="streetAddress">PO Box 18666</span>,

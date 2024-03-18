@@ -2,8 +2,12 @@
 <div>
     {{ $posts := where .Site.RegularPages "Type" "in" (slice "post") }}
     {{ range $posts }}
-      {{ .Date.Format $.Site.Params.time_format_default }}
-      <h2>{{ .Title }}</h2>
+      {{ if eq .Site.Language.Lang "en" }}
+        {{ .Date.Format $.Site.Params.time_format_default }}
+      {{ else if eq .Site.Language.Lang "zh-cn" }}
+        {{ .Date.Format $.Site.Params.time_format_chinese }}
+      {{ end }}
+      <h4>{{ .Title }}</h4>
       {{ with .Params.excerpt }}
       {{ . | markdownify }}
       {{ else }}
@@ -20,3 +24,4 @@
   {{ end  }}
 </div>
 {{ end }}
+

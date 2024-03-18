@@ -51,3 +51,9 @@ other = "Publications"
 
 [news]
 other = "News"
+
+[address]
+other = "FIT Building, Tsinghua University, Haidian District, Beijing, China"
+
+[copyright]
+other = "&copy 2024 InspiringGroup. All rights reserved."

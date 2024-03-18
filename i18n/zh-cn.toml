@@ -51,3 +51,9 @@ other = "发表"
 
 [news]
 other = "动态"
+
+[address]
+other = "北京市海淀区清华大学FIT楼"
+
+[copyright]
+other = "© 2024 InspiringGroup. 保留所有权利。"
