@@ -31,23 +31,23 @@ other = "Last updated:"
 other = "See all Documentation"
 
 [footer_affiliations_title]
-other = "Current and Past Affiliations"
+other = "相关单位"
 
 
 [languages]
 other = "Languages"
 
 [research]
-other = "Research"
+other = "研究"
 
 [join_us]
-other = "Join Us"
+other = "加入我们"
 
 [team]
-other = "Team"
+other = "人员"
 
 [publications]
-other = "Publications"
+other = "发表"
 
 [news]
-other = "News"
+other = "动态"

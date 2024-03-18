@@ -10,7 +10,7 @@ To see your changes, [install
 Hugo](https://gohugo.io/getting-started/installing), then run it with:
 
 ```
-hugo server -F
+hugo server -F --disableFastRender
 ```
 
 And open <a href="http://localhost:1313/">http://localhost:1313/</a> in your

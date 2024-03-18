@@ -32,10 +32,20 @@ autoHeadingIDType = "blackfriday"
 
 [languages]
 [languages.en]
-title = "Internet Security Research Group"
+contentDir = "content/en"
+title = "InspiringGroup"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 description = """
-  ISRG&rsquo;s mission is to reduce financial, technological, and educational barriers to secure communication over the Internet.
+  Todo update this in config.toml
+"""
+[languages.zh-cn]
+contentDir = "content/zh-cn"
+title = "InspiringGroup"
+languageName ="中文"
+# Weight used for sorting.
+weight = 2
+description = """
+  Todo update this in config.toml
 """
