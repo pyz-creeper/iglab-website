@@ -3,8 +3,8 @@ seq: 2
 image: /images/team/zouzhenhua.jpeg
 ---
 
-### Zhenhua Zou
+### 邹振华
 <p><i>Ph.D. Student</i></p>
 
-- Working on Privacy Computing; Responsible/Trust AI
-- B.E. in Computer Science and Technology, Tsinghua University
+- 研究方向：隐私计算；可信人工智能
+- 本科毕业于清华大学
