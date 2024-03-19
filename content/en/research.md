@@ -2,8 +2,6 @@
 title: Research
 ---
 
-## Research
-
 <div class="largefont">
 The wide range of research in InspiringGroup can be unified as data-centric systems and applications, where we strive to build next-generation infrastructures and data applications. We have published papers in top-tier venues and journals, covering *Privacy Computing, Accountable and Trust AI, Internet Architecture, Blockchain Infrastructure, Datacenter Networking, Advanced Persistent Threat, Machine Learning Systems, etc*. See our Publications for more detail.
 </div>
@@ -11,13 +9,13 @@ The wide range of research in InspiringGroup can be unified as data-centric syst
 
 ---
 
-### Ongoing Research Projects
+### <b>Ongoing Research Projects</b>
 
 <br />
 
 <div class="rblock">
 
-#### <b>Next-Generation Networking Infrastructures</b>
+#### Next-Generation Networking Infrastructures
 
 
 <div class="largefont">
@@ -33,7 +31,7 @@ The wide range of research in InspiringGroup can be unified as data-centric syst
 
 <div class="rblock">
 
-#### <b>Privacy Computing</b>
+#### Privacy Computing
 
 
 <div class="largefont">
@@ -49,7 +47,7 @@ The wide range of research in InspiringGroup can be unified as data-centric syst
 
  <div class="rblock">
 
-#### <b>Accountable and Trust ML/AI Algorithms and Systems</b>
+#### Accountable and Trust ML/AI Algorithms and Systems
 
 
 <div class="largefont">
@@ -64,7 +62,7 @@ AI/ML has fundementally shaped many aspects of our lives.
 
 <div class="rblock">
 
-#### <b>Blockchain-Assisted Secure Infrastructures</b>
+#### Blockchain-Assisted Secure Infrastructures
 
 
 <div class="largefont">
@@ -83,7 +81,7 @@ Blockchain is the fundamental infrastructure of the next-generation trust-based 
 
 <div class="rblock">
 
-#### <b>Applied ML/AI in Practical Distributed Systems</b>
+#### Applied ML/AI in Practical Distributed Systems
 
 
 <div class="largefont">
@@ -99,7 +97,7 @@ Blockchain is the fundamental infrastructure of the next-generation trust-based 
 
 ---
 
-### Prior Research Projects 
+### <b>Prior Research Projects</b> 
 
 <div class="largefont">
 The following are prior projects that have shown substantial impacts on either academia or industry or both. 
@@ -109,7 +107,7 @@ The following are prior projects that have shown substantial impacts on either a
 
 <div class="rblock">
 
-#### <b>Internet Security & Privacy and Architectural Innovations</b>
+#### Internet Security & Privacy and Architectural Innovations
 
 
 <div class="largefont">
@@ -125,7 +123,7 @@ The following are prior projects that have shown substantial impacts on either a
 
 <div class="rblock">
 
-#### <b>Datacenter Networking and Infrastructures</b>
+#### Datacenter Networking and Infrastructures
 
 
 <div class="largefont">
@@ -141,7 +139,7 @@ The following are prior projects that have shown substantial impacts on either a
 
 <div class="rblock">
 
-#### <b>Blockchain Infrastructures and Web3.0 Initiatives</b>
+#### Blockchain Infrastructures and Web3.0 Initiatives
 
 
 <div class="largefont">
@@ -155,7 +153,7 @@ The following are prior projects that have shown substantial impacts on either a
 
 <div class="rblock">
 
-#### <b>Systems Security</b>
+#### Systems Security
 
 
 <div class="largefont">
@@ -171,7 +169,7 @@ The following are prior projects that have shown substantial impacts on either a
 
 ---
 
-### Other Research Projects
+### <b>Other Research Projects</b>
 
 <div class="largefont">
 Over the past few years, we have also worked on projects involving Programming Languages, High-perfomance Storage Systems, Database Systems, etc. **We are extremely excited about interdisciplinary research because that is where creativity and disruptive initiatives come from**. 
