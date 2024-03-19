@@ -10,6 +10,7 @@ images = ["images/opengraph/ISRG-opengraph-wide.png"]
 twitter_card_format = "summary"
 social_share_twitter_square = "images/opengraph/ISRG-opengraph-square.png"
 social_share_twitter_wide = "images/opengraph/ISRG-opengraph-wide.png"
+math = true
 
 # Date and time formatting, see https://gohugo.io/functions/format/
 time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
@@ -23,11 +24,18 @@ defaultMarkdownHandler = "goldmark"
 [markup.goldmark]
 [markup.goldmark.extensions]
 typographer = false
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
 [markup.goldmark.renderer]
 unsafe = true
 [markup.goldmark.parser]
 # To keep § ids identical after the migration from blackfriday to goldmark
 autoHeadingIDType = "blackfriday"
+
+
 
 [languages]
 [languages.en]

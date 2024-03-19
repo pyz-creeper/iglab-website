@@ -8,7 +8,7 @@ image: "/images/team/zhuotaoliu.jpg"
   <p><i>清华大学网研院，副教授</i><br>
   <i>清华大学海外优青</i></p>
 </div>
-电子邮箱: zhuotaoliu [at] tsinghua [dot] edu [dot] cn, zhuotaoliu [at] gmail [dot] com
+电子邮箱: zhuotaoliu@tsinghua.edu.cn, zhuotaoliu@gmail.com
 
 - 曾任谷歌网络基础设施组(NetInfra)和全球网络组(GGN)技术主管
 - 两次因数据中心网络的工作荣获谷歌"Feats of Engineering"奖

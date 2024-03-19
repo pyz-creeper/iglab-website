@@ -8,7 +8,7 @@ image: "/images/team/zhuotaoliu.jpg"
   <p><i>Associate Professor, Tsinghua University</i><br>
   <i>Distinguished Researcher, Tsinghua University</i></p>
 </div>
-email: zhuotaoliu [at] tsinghua [dot] edu [dot] cn, zhuotaoliu [at] gmail [dot] com
+email: zhuotaoliu@tsinghua.edu.cn, zhuotaoliu@gmail.com
 
 - Former Technical Lead @ Google’s NetInfra (Network Infrastructure) and GGN (Google Global Networking) team
 - Two-time "Feats of Engineering" award at Google for Datacenter Networking
