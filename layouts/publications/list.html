@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div>
     {{ $postsByCategory := ((where .Site.RegularPages "Type" "in" (slice "publications")).GroupByParam "category") }}
+    <p><h5>* indicates primary authors. Undererlined students are from inspiring group.</h5></p>
     {{ range $category, $posts := $postsByCategory }}
       <h3>{{ if ne $category "" }}{{ .Key }}{{ else }}{{ "Undefined" }}{{ end }}</h3>
       {{ $sorted_posts := ($posts.ByParam "seq").Reverse }}
